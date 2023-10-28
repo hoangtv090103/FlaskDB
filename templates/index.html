@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data</title>
+    <link >
+</head>
+<body>
+<h1>Data</h1>
+<div class="menu">
+    <ul>
+        {% for row in table %}
+            <li>{{ row[0] }}</li>
+            <li>{{ row[1] }}</li>
+            <li>{{ row[2] }}</li>
+        {% endfor %}
+
+    </ul>
+</div>
+</body>
+</html>
